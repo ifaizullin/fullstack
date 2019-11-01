@@ -54,6 +54,9 @@
     <Compile Include="middleware\passport.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="middleware\upload.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="models\Category.js">
       <SubType>Code</SubType>
     </Compile>
@@ -81,14 +84,20 @@
     <Compile Include="routes\position.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="utils\errorHandler.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="uploads\.gitkeep" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
     <Folder Include="models\" />
     <Folder Include="config\" />
     <Folder Include="middleware\" />
+    <Folder Include="uploads\" />
+    <Folder Include="utils\" />
     <Folder Include="routes\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
